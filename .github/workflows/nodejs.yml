@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x] # เลือกเวอร์ชันของ Node.js ที่ต้องการ
+        node-version: [18.20.4] # เลือกเวอร์ชันของ Node.js ที่ต้องการ
 
     steps:
     - name: Checkout code
